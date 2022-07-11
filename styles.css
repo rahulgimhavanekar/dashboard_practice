@@ -6,4 +6,56 @@
 
 body {
   font-family: "Inter", sans-serif;
+  display: grid;
+  grid-template-columns: 1fr 4fr;
+}
+
+.material-icons.md-18 {
+  font-size: 18px;
+}
+.material-icons.md-24 {
+  font-size: 24px;
+}
+.material-icons.md-36 {
+  font-size: 36px;
+}
+.material-icons.md-48 {
+  font-size: 48px;
+}
+
+/* Header */
+.header {
+}
+
+/* Sidebar */
+.sidebar {
+  padding: 1rem;
+  background-color: #1992d4;
+  color: #fff;
+  grid-row: 1/3;
+}
+
+.sidebar .logo,
+.sidebar li {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.sidebar ul {
+  list-style: none;
+}
+
+.sidebar li {
+  font-size: 0.9rem;
+  margin-bottom: 1rem;
+}
+
+.main-links,
+.secondary-links {
+  margin-top: 3rem;
+}
+
+/* Main */
+.content {
 }
